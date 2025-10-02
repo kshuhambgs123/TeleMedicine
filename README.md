@@ -44,7 +44,14 @@ Backend for a mini real-time telemedicine app.
 Connect to: `ws://<host>:<port>/ws?token=<JWT>`
 
 Message types (JSON):
-- `chat`: `{ type: 'chat', to: <userId?>, data: { message } }`  
+- `chat`: `{ type: 'chat', to: <userId?>, data: { message } } eg: patient: {
+  "type": "call-start",
+  "to": 1,
+  "payload": {
+    "text": "Hello doctor!"
+  }
+}
+`  
   if `to` omitted => broadcast
 - `signal`: `{ type: 'signal', to: <userId>, data: { signalType, sdpOrIce } }`
 - `call_start`: `{ type: 'call_start', to: <doctorId>, data: { callId } }`
