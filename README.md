@@ -21,7 +21,7 @@ Backend for a mini real-time telemedicine app.
 
 ## Setup
 1. Clone repo
-2. `cp .env.example .env` and edit `.env` (DATABASE_URL, JWT_SECRET, PORT)
+2. `cp .env.example .env` and edit `.env` (JWT_SECRET, PORT)
 3. `npm install`
 4. `npm run start`
 
