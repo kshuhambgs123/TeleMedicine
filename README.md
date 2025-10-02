@@ -59,7 +59,7 @@ Server messages examples:
 - `call_end` — delivered when a call ends
 
 WebSocket / Call Flow : 
-
+```
 Patient                         Server                          Doctor
    |                               |                               |
    |--connect ws with JWT--------->|                               |
@@ -86,7 +86,7 @@ Patient                         Server                          Doctor
    |--call_end-------------------->|                               |
    |                               |--relay call_end-------------->|
    |                               |--mark doctor ONLINE---------->|
-
+```
 
 This diagram shows the sequence of events between a Patient, the Server, and a Doctor when using the WebSocket for real-time chat and calls:
 
