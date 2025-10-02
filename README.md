@@ -23,7 +23,7 @@ Backend for a mini real-time telemedicine app.
 1. Clone repo
 2. `cp .env.example .env` and edit `.env` (JWT_SECRET, PORT)
 3. `npm install`
-4. `npm run start`
+4. `npm start`
 
 ## API Endpoints
 - `POST /auth/register`  
