@@ -1,4 +1,4 @@
-# Telemed Backend (Node.js + Sequelize + Postgres ( for now javascript maps (Use in-memory data structure as per requiremet) ) + ws)
+# Telemed Backend (Node.js + Sequelize + Postgres ( for now javascript maps (Use in-memory data structure as per requirement) ) + ws)
 
 ## Summary
 Backend for a mini real-time telemedicine app.
