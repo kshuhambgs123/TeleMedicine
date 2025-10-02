@@ -14,7 +14,7 @@ Backend for a mini real-time telemedicine app.
 
 ## Tech
 - Node.js (Express)
-- Sequelize + PostgreSQL
+- Sequelize + PostgreSQL (for now javascript maps (Use in-memory data structure as per requirement)
 - ws (WebSocket)
 - JWT auth
 - bcrypt for password hashing
